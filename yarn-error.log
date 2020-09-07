@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add bycrypt
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/HP PAVILION/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP PAVILION/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/HP PAVILION/AppData/Local/Yarn/bin:/mnt/c/Users/HP PAVILION/AppData/Roaming/npm:/mnt/c/Program Files/MongoDB/Server/4.2/bin/:/snap/bin
+
+Yarn version: 
+  1.22.1
+
+Node version: 
+  12.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bycrypt: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66982:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140743:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141715:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141637:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "loginsystem",
+    "version": "1.0.0",
+    "description": "login in with auth",
+    "main": "server.js",
+    "dependencies": {
+      "connect-flash": "^0.1.1",
+      "ejs": "^3.1.5",
+      "express": "^4.17.1",
+      "express-session": "^1.17.1",
+      "express-ejs-layouts": "^2.5.0",
+      "mongoose": "^5.10.3",
+      "passport": "^0.4.1",
+      "passport-local": "^1.0.0",
+      "bcrypt": "^5.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "emmybxt",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
